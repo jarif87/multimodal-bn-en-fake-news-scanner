@@ -63,7 +63,7 @@ streamlit run streamlit_app.py
 - Fine-Tuned On: Custom BN-EN multimodal dataset
 - Classifier Head: Linear layer on combined CLIP embeddings
 - Inference Format: ONNX (quantized, INT8)
-- Model Size: ~180MB (quantized) vs ~350MB (original)
+- Model Size: ~300MB (quantized) vs ~660MB (original)
 
 ## 📥 Requirements
 ```
@@ -77,4 +77,5 @@ onnxruntime==1.22.1
 - OpenAI CLIP
 - Hugging Face Transformers
 - ONNX Runtime
+
 - Bangla NLP Community
